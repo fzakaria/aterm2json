@@ -1,0 +1,6 @@
+schema = 3
+
+[mod]
+  [mod."github.com/nix-community/go-nix"]
+    version = "v0.0.0-20250101154619-4bdde671e0a1"
+    hash = "sha256-8mewNCfdfhZtkckVxxJA3aNS7mGZEwg6xXymEq8g1wY="

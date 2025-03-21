@@ -15,12 +15,6 @@ in
         fs.intersection
         (fs.gitTracked ./.)
         (fs.unions [
-          ./database
-          ./handlers
-          ./static
-          ./templates
-          ./passwords
-          ./embed.go
           ./cmd
           ./go.mod
           ./go.sum
