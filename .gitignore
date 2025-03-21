@@ -1,0 +1,23 @@
+node_modules
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Don't include result
+result
+
+# Don't include db
+*.sqlite
+
+.direnv/
+
+# tailwind
+static/css/output.css
+static/css/tailwind.css
